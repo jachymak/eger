@@ -6,19 +6,20 @@
     <meta name="author" content="Jachym Vitecek">
     <meta name="keywords" content="3D tisk, tiskarna">
     <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
     <title>3D tisk</title>
   </head>
-  <body style="padding: 40px 88px 40px 88px; background-color: #E5E5E5;" >
+  <body>
       <h1 align="center">3D TISK</h1>
-      <p align="center" style="margin-bottom: 20px;">Vítejte na stránce kde se dozvíte spoustu zajímavých věcí o 3D tisku.</p>
+      <p id="uvitani" align="center">Vítejte na stránce kde se dozvíte spoustu zajímavých věcí o 3D tisku.</p>
       <hr>
       <h2>Co to je?</h2>
       <p>3D tisk neboli aditivní výroba také inkrementální nebo přírůstková výrobní technologie (anglicky 3D printing neboli additive manufacturing (AM)) je proces tvorby třídimenzionálních pevných objektů z digitálního souboru (Additive Manufacturing File – AMF). V aditivních procesech je objekt vytvořen pokládáním souvislých vrstev materiálu, dokud není celý projekt dokončen. Každá z těchto vrstev může být považována za úzce rozříznutou horizontální sekci daného objektu. Z mechanismů 3D tisku také vychází technologie 3D per.</p>
-      <img src="tiskarna.png" width="300" alt="tiskarna_img" style="float: right; margin: 20px ;">
+      <img src="tiskarna.png" width="300" alt="tiskarna_img" id="tiskarna_img">
       <h2>Historie</h2>
       <p>Počátky technologie 3D tisku spadají do druhé poloviny 20. století, kdy si Chuck Hull nechal v roce 1986 patentovat technologii stereolitografie. Tato technika spočívá v trojrozměrném laserovém tisku s využitím UV laseru a tekutého fotopolymeru. Ale už roku 1980 se pokusil podat patent Hideo Kodama. Před koncem 90. let pak Chuck Hull pod hlavičkou jeho nové firmy 3D Systems vytvořil první zařízení tisknoucí v 3D formátu pro širokou veřejnost, tzv. stereolitografický aparát SLA-1. V té době se tomuto zařízení ještě neříkalo 3D tiskárna, nicméně modely SLA se také staly základem vývoje dnešních 3D tiskáren či CNC strojů. SLA-1 byl využíván pouze beta zákazníky a postupně upravován až přišla na svět podoba SLA-250, která byla nabídnuta široké veřejnosti. StereoLithography Apparatus SLA-1 je doposud k vidění ve Fordově muzeu v Dearborn, Michigan.</p>
       <h2>Typy 3D tisku</h2>
-      <ul style="margin-bottom: 50px">
+      <ul id="seznam">
         <li>SLS – Selective Laser Sintering</li>
         <li>SLM – Selective Laser Melting</li>
         <li>SHS – Selective Heat Sintering</li>
@@ -139,12 +140,12 @@
         </tbody>
       </table>
 
-      <div style="float:right;margin-top: 44px;"><a href="objednavka.html"><button style="padding: 10px 58.5px; cursor: pointer; background-color: orange;">OBJEDNÁVKA</button></a></div>
-      <div style="float:right;margin-top: 44px;"><a target="_blank" href="3D-TISK.pptx" download><button style="padding: 12px 30px; cursor: pointer;">STÁHNOUT PREZENTACI</button></a></div>
+      <div class="tlacitko"><a href="objednavka.html"><button style="padding: 10px 58.5px; background-color: orange;">OBJEDNÁVKA</button></a></div>
+      <div class="tlacitko"><a target="_blank" href="3D-TISK.pptx" download><button style="padding: 12px 30px;">STÁHNOUT PREZENTACI</button></a></div>
 
       <h2 style="margin-bottom: 30px">Odkazy</h2>
-      <p><a style="margin-left: 30px;" target="_blank" href="http://gyarabska.cz/1cs1/lorenc/">Stránka spoluautora</a>
-      <a style="margin-left: 30px" target="_blank" href="https://josefprusa.cz/o-3d-tisku/">Více informací o 3D tisku</a></p>
+      <span id="odkazy"><a style="margin-left: 30px;" target="_blank" href="http://gyarabska.cz/1cs1/lorenc/">Stránka spoluautora</a>
+      <a style="margin-left: 30px" target="_blank" href="https://josefprusa.cz/o-3d-tisku/">Více informací o 3D tisku</a></span>
 
       <div align="center" style="margin-top: 90px; font-size: 11px;">Made by Jakub Eger 2019</div>
   </body>

@@ -1,0 +1,32 @@
+body {
+  padding: 40px 88px 40px 88px;
+  background-color: #E5E5E5;
+}
+
+#uvitani {
+  margin-bottom: 20px;
+}
+
+#tiskarna_img {
+  float: right;
+  margin: 20px;
+}
+
+#seznam {
+  margin-bottom: 50px;
+}
+
+.tlacitko {
+  float: right;
+  margin-top: 44px;
+}
+
+.tlacitko button {
+  cursor: pointer;
+}
+
+#odkazy {
+  border: 1px solid black;
+  padding: 15px 30px 15px 0;
+  margin-left: 30px;
+}
