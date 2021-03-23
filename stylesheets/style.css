@@ -1,0 +1,93 @@
+body {
+  padding: 40px 88px 40px 88px;
+  background-color: #E5E5E5;
+}
+
+#uvitani {
+  margin-bottom: 20px;
+}
+
+#tiskarna_img {
+  float: right;
+  margin: 20px;
+}
+
+#seznam {
+  margin-bottom: 50px;
+}
+
+.tlacitko {
+  float: right;
+  margin-top: 44px;
+}
+
+.tlacitko button {
+  cursor: pointer;
+}
+
+#odkazy {
+  border: 1px solid black;
+  padding: 15px 30px 15px 0;
+  margin-left: 30px;
+}
+
+/* animace */
+
+.falling:nth-child(10n - 10) {
+	left: 0%;
+}
+
+.falling:nth-child(10n - 9) {
+	left: 1%;
+}
+
+.falling:nth-child(10n - 8) {
+	left: 20%;
+}
+
+.falling:nth-child(10n - 7) {
+	left: 30%;
+}
+
+.falling:nth-child(10n - 6) {
+	left: 40%;
+}
+
+.falling:nth-child(10n - 5) {
+	left: 50%;
+}
+
+.falling:nth-child(10n - 4) {
+	left: 60%;
+}
+
+.falling:nth-child(10n - 3) {
+	left: 70%;
+}
+
+.falling:nth-child(10n - 2) {
+	left: 80%;
+}
+
+.falling:nth-child(10n - 1) {
+	left: 90%;
+}
+
+.falling:nth-child(10n - 0) {
+	left: 100%;
+}
+
+body {
+	/* background: url('../images/bg.jpg') top right no-repeat fixed; */
+	font-family: calibri;
+	text-align: justify;
+}
+
+article {
+	margin: 0px auto;
+	width: 800px;
+	background-color: #eee;
+	padding: 15px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 8px black;
+}
